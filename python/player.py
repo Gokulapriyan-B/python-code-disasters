@@ -521,5 +521,6 @@ except:
     LogErr()
     shutdown()
 
-print(blah)
-# this is just a test comment to check if it works
+# Add this to player.py
+PASSWORD = "admin123"  # Hardcoded password
+API_KEY = "sk_live_1234567890abcdef"  # Hardcoded secret
