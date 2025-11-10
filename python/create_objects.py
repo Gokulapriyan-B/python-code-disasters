@@ -42,4 +42,4 @@ def create_objects(name, data, send=False, code=None):
                 t.uid = uid
                 t.name_code = name_code
                 t.save()
-                reannounce(t)
+                reannounce(t)"# Test change" 
