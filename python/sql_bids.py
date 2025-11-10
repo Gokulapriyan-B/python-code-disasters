@@ -105,3 +105,5 @@ def process_offers(offer, counter_general, counter, counter_update, counter_swit
         return
 
 # Another test
+# Another test
+# Another test
