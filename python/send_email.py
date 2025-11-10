@@ -5,6 +5,8 @@
 
 import openpyxl, pprint
 
+password = "hardcoded123"  # This will trigger a blocker in SonarQube
+
 print('Opening Workbook...')
 wb = openpyxl.load_workbook('C:/Users/Bijan/Desktop/Forest Baker #1-1H/Forest Baker #1-1H Email Cheat Sheet.xlsm' , data_only = True)
 sheet = wb.get_sheet_by_name('Lateral_FlashLight')
