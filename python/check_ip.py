@@ -23,19 +23,4 @@ def check_ip(iplist, masklist):
 
     for p in processes:
         p.join()
-# BLOCKER ISSUES FOR TESTING
-# These lines will trigger SonarQube BLOCKER severity issues
 
-# BLOCKER 1: Hardcoded credentials (python:S2068)
-password = "admin123"
-db_password = "mySecretPassword"
-admin_password = "root123"
-
-# BLOCKER 2: Undefined variable (python:S3827)
-print(undefined_variable_that_does_not_exist)
-
-# BLOCKER 3: Wrong function arguments (python:S930)
-split_list([1,2,3], 2, "extra_arg", "another_arg")
-
-# BLOCKER 4: Type error (python:S5797)
-bad_math = "string" + 100

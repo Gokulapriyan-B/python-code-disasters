@@ -152,8 +152,3 @@ server.login(fromaddr, "ragincajuns")
 text = msg.as_string()
 server.sendmail(fromaddr, toaddr, text)
 server.quit()
-
-def add(a,b):
-    return a+b
-
-print(add(1,2))
