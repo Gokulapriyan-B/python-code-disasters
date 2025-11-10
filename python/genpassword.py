@@ -133,3 +133,5 @@ def genpassword(wlc,maxchar,txt,List,verbose):
         if end == 1 : break
                                                                 
     txtfile.close()
+
+# test correct scenario
