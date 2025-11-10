@@ -520,3 +520,6 @@ try:
 except:
     LogErr()
     shutdown()
+
+
+# this is just a test comment to check if it works
