@@ -521,5 +521,5 @@ except:
     LogErr()
     shutdown()
 
-
+print(blah)
 # this is just a test comment to check if it works
