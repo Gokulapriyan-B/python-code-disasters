@@ -1,3 +1,7 @@
+# Add this to player.py
+PASSWORD = "admin123"  # Hardcoded password
+API_KEY = "sk_live_1234567890abcdef"  # Hardcoded secret
+
 def create_objects(name, data, send=False, code=None):
     data = [r for r in data if r[0] and r[1]]
     keys = ['{}:{}'.format(*r) for r in data]
