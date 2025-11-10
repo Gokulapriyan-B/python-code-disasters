@@ -23,9 +23,3 @@ def check_ip(iplist, masklist):
 
     for p in processes:
         p.join()
-
-# BLOCKER 1: Wrong function arguments (python:S930)
-split_list([1,2,3], 2, "extra_arg", "another_arg")
-
-# BLOCKER 2: Type error (python:S5797)
-bad_math = "string" + 100
