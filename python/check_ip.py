@@ -23,5 +23,3 @@ def check_ip(iplist, masklist):
 
     for p in processes:
         p.join()
-
-split_list([1,2,3], 2, "arg", "extra")

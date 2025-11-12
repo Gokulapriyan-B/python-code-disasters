@@ -94,4 +94,3 @@ class Akinator():
             return 19
         else:
             return 0
-"# Test change" 

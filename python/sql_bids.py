@@ -102,7 +102,3 @@ def process_offers(offer, counter_general, counter, counter_update, counter_swit
             print "Offer has no bid and no externalOfferId: ", offer
     except TypeError:
         return
-
-# Another test
-# Another test
-# Another test
