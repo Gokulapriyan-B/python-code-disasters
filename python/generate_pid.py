@@ -27,3 +27,8 @@ class Generator(MasterClass):
             nc = self.generate_pid()
         except PID.DoesNotExist:
             return nc
+        
+def add(a,b):
+    return a+b
+
+print(add(1,2))
